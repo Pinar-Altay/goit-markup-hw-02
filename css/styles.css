@@ -78,6 +78,22 @@ button {
     color: #404bbf;
 }
 
+.add-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.add-link:hover {
+    color: #404bbf;
+}
+.add-link:focus {
+    color: #404bbf;
+}
+
 .section-text {
     font-family: "Roboto", sans-serif;
     font-weight: medium;
