@@ -2,8 +2,8 @@
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 56px;
-    letter-spacing: 2%;
-    line-height: 60px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
     color: white;
     text-align: center;
 }
@@ -11,20 +11,27 @@
 .section-title {
     font-family: 'roboto', sans-serif;
     font-weight: bold;
+    line-height: 1.11;
     font-size: 36px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #2E2F42;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .list-title {
     font-family: 'roboto', sans-serif;
-    font-weight: medium;
+    font-weight: 500;
     font-size: 20px;
-    letter-spacing: 2%;
+    line-height: 1.2;
+    letter-spacing: 0,02em;
+    color: #2E2F42;
 }
 
 body {
-    font-family: 'roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
     font-weight: regular;
     font-size: 16px;
     line-height: 24px;
@@ -32,21 +39,43 @@ body {
 }
 
 button {
-    font-family: 'roboto', sans-serif;
-    font-weight: medium;
-    font-size: 24px;
-    letter-spacing: 4%;
     background-color: #4D5AE5;
     cursor: pointer;
 }
 
-.link {
+.service {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff
+}
+
+.service:hover {
+    background-color: #404bbf;
+}
+
+.sevice:focus {
+    background-color: #404bbf;
+}
+
+
+.nav-link {
     font-family: 'roboto', sans-serif;
-    font-weight: regular;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 4%;
-    text-decoration: underline;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.nav-link:hover {
+    color: #404bbf;
+}
+
+.nav-link:focus {
+    color: #404bbf;
 }
 
 .section-text {
@@ -54,7 +83,7 @@ button {
     font-weight: medium;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -73,4 +102,46 @@ button {
 .page-footer {
     background-color: #2E2F42;
     color: white;
+}
+
+.logo {
+    font-family: 'Raleway' sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo .logo-add {
+    color: #2e2f42;
+}
+
+.logo .logo-footer {
+    color: #f4f4fd;
+}
+
+.link {
+    font-size: 16px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.link:hover {
+    color: #404bbf;
+}
+
+.link:focus {
+    color: #404bbf;
+}
+
+.list-team {
+    background-color: #ffffff;
+}
+
+.footer-text {
+    line-height: #f4f4fd;
+    letter-spacing: 0.02em;
 }
